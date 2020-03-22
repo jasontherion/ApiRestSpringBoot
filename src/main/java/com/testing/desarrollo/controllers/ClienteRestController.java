@@ -15,6 +15,12 @@ public class ClienteRestController {
 	@Autowired
 	IClienteService clienteService;
 	
+    @RequestMapping("/token")
+    public String getToken(){
+        return JWTUtil.getJWTToken();
+    }
+
+	
 	@GetMapping("/test")
 	public String welcome() {
 		return "Welcome to java techie";
