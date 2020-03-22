@@ -1,5 +1,3 @@
-server:
-  port: 9876
 spring: 
   datasource:
    url: jdbc:mariadb://172.30.254.227:3306/db_springboot_backend?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
