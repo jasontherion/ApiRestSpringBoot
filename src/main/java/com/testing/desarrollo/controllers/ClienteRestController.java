@@ -15,7 +15,7 @@ public class ClienteRestController {
 	@Autowired
 	IClienteService clienteService;
 	
-	@GetMapping("/")
+	@GetMapping("/test")
 	public String welcome() {
 		return "Welcome to java techie";
 	}
