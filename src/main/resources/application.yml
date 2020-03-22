@@ -14,3 +14,13 @@ logging:
    org: 
     hibernate: 
      SQL: debug
+     
+     
+keycloak: 
+  auth-server-url: https://keycloak-keycloak.apps.us-west-1.starter.openshift-online.com/auth
+keycloak:
+  realm: Testing
+keycloak: 
+  resource: apisDevelop
+keycloak:
+  bearer-only: true
