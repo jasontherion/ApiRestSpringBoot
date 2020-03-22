@@ -18,6 +18,6 @@ logging:
      
 keycloak: 
   auth-server-url: https://keycloak-keycloak.apps.us-west-1.starter.openshift-online.com/auth
-  realm: Testing
+  realm: testing
   resource: apisDevelop
   bearer-only: true
