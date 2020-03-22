@@ -1,6 +1,6 @@
 spring: 
   datasource:
-   url: jdbc:mariadb://172.30.254.227:3306/db_springboot_backend?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+   url: jdbc:mariadb://localhost:3306/db_springboot_backend?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
    username: pruebas 
    password: 790821Jason
    driver-class-name: org.mariadb.jdbc.Driver
@@ -8,6 +8,8 @@ spring:
      database-platform: org.hibernate.dialect.MySQL57Dialect
      hibernate: 
        ddl-auto: create-drop 
+  main: 
+    allow-bean-definition-overriding: true
       
 logging: 
   level:
@@ -21,3 +23,5 @@ keycloak:
   realm: testing
   resource: apisDevelop
   bearer-only: true
+  
+ 
