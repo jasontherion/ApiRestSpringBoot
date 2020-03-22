@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.testing.desarrollo</groupId>
 	<artifactId>Desarrollo</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<name>Desarrollo</name>
 	<description>Prueba de despliegue</description>
 
