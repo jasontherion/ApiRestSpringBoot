@@ -14,6 +14,11 @@ public class ClienteRestController {
 
 	@Autowired
 	IClienteService clienteService;
+	
+	@GetMapping("/")
+	public String welcome() {
+		return "Welcome to java techie";
+	}
 
 	@GetMapping("/clientes")
 	public Iterable<Cliente> index() {
